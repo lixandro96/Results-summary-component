@@ -17,7 +17,7 @@ function showData(data){
     const {category,score,icon} = element
     summary.innerHTML += `
       <div class="summary_item">
-        <p><img src="${icon}" alt="${category}">${category}</p>
+        <p><img src="${icon}" alt="${category} icon">${category}</p>
         <div>
           <p>${score}<span class="light"> / 100</span></p>
         </div>
